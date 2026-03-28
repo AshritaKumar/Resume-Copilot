@@ -1,0 +1,13 @@
+must_have_weight: 60
+nice_to_have_weight: 20
+risk_weight: 10
+communication_weight: 10
+criterion_defaults:
+  evidence_multiplier: 1.0
+  missing_evidence_score: 0.10
+scoring:
+  semantic_weight: 0.7
+  lexical_weight: 0.3
+  strength_match_floor: 0.20
+  strength_match_top_ratio: 0.70
+  concern_threshold: 0.30

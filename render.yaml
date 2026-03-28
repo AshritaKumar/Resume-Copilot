@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: confido-hiring
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: LANGFUSE_PUBLIC_KEY
+        sync: false
+      - key: LANGFUSE_SECRET_KEY
+        sync: false
+      - key: LANGFUSE_HOST
+        value: https://us.cloud.langfuse.com
+      - key: LANGFUSE_LABEL
+        value: production
+      - key: REQUIRE_LANGFUSE_PROMPTS
+        value: "true"
+      - key: CANDIDATE_EXTRACTION_PROMPT_NAME
+        value: Candidate_Extraction
+      - key: JD_PARSE_PROMPT_NAME
+        value: JD_Parse
+      - key: OUTREACH_PROMPT_NAME
+        value: outreach
+      - key: INTERVIEW_PROMPT_NAME
+        value: intervoew
+      - key: RAG_ANSWER_PROMPT_NAME
+        value: rag_answer
+      - key: JUDGE_SYSTEM_PROMPT_NAME
+        value: llm_judge
+      - key: PRIMARY_LLM_MODEL
+        value: gpt-4.1-mini
+      - key: HIGH_STAKES_LLM_MODEL
+        value: gpt-4.1
+      - key: EMBEDDING_MODEL
+        value: text-embedding-3-small

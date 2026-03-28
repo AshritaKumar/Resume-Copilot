@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "alex_chen",
+    "name": "Alex Chen",
+    "total_score": 86.4,
+    "strengths": [
+      "experience with LLM pipelines and prompt design",
+      "ability to design robust data workflows with fallback handling",
+      "vector databases (pgvector) and retrieval systems"
+    ],
+    "concerns": [
+      "healthcare or HR-tech domain exposure"
+    ],
+    "unknowns": [
+      "experience creating interview frameworks"
+    ]
+  },
+  {
+    "candidate_id": "priya_singh",
+    "name": "Priya Singh",
+    "total_score": 71.2,
+    "strengths": [
+      "strong written communication and stakeholder collaboration"
+    ],
+    "concerns": [
+      "vector databases (pgvector) and retrieval systems"
+    ],
+    "unknowns": [
+      "experience creating interview frameworks"
+    ]
+  },
+  {
+    "candidate_id": "marco_rivera",
+    "name": "Marco Rivera",
+    "total_score": 55.8,
+    "strengths": [
+      "ability to design robust data workflows with fallback handling"
+    ],
+    "concerns": [
+      "experience with LLM pipelines and prompt design",
+      "strong written communication and stakeholder collaboration"
+    ],
+    "unknowns": [
+      "healthcare or HR-tech domain exposure"
+    ]
+  }
+]

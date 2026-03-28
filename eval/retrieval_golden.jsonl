@@ -1,0 +1,3 @@
+{"id": "python_mention", "query": "Which candidates mention Python?", "expect_any": ["python"], "top_k": 12}
+{"id": "work_signals", "query": "What work, internship, or project experience is described?", "expect_any": ["experience", "project", "intern"], "top_k": 12}
+{"id": "education_query", "query": "Where did candidates study or which university?", "expect_any": ["university", "college", "b.tech", "bachelor", "degree", "institute"], "top_k": 12}

@@ -1,0 +1,14 @@
+typer>=0.12.0
+pydantic>=2.8.0
+python-dotenv>=1.0.1
+psycopg[binary]>=3.2.1
+openai>=1.40.0
+pypdf>=4.3.1
+python-docx>=1.1.2
+pillow>=10.4.0
+pytesseract>=0.3.10
+pyyaml>=6.0.2
+langfuse
+streamlit>=1.38.0
+langgraph
+reportlab>=4.2.0

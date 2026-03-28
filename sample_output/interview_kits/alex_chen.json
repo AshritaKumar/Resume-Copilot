@@ -1,0 +1,35 @@
+{
+  "questions": [
+    {
+      "question": "You mentioned reducing recruiter review time by 42%. What design decisions made that outcome possible?",
+      "criterion": "deliver trustworthy candidate ranking with evidence",
+      "evidence_reference": "Built a resume-screening workflow that reduced recruiter review time by 42%",
+      "strong_answer_signals": [
+        "metrics instrumentation",
+        "clear scoring framework",
+        "trade-off discussion"
+      ],
+      "weak_answer_signals": [
+        "no baseline comparison",
+        "unclear ownership",
+        "no reliability discussion"
+      ]
+    },
+    {
+      "question": "Walk us through your fallback parsing architecture for mixed resume formats.",
+      "criterion": "ability to design robust data workflows with fallback handling",
+      "evidence_reference": "Implemented fallback parsing across PDF and DOCX with confidence scoring",
+      "strong_answer_signals": [
+        "explicit failure states",
+        "confidence thresholds",
+        "operational monitoring"
+      ],
+      "weak_answer_signals": [
+        "single parser dependency",
+        "silent failures",
+        "no confidence handling"
+      ]
+    }
+  ],
+  "warnings": []
+}
